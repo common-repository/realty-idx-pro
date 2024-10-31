@@ -1,0 +1,73 @@
+#idxrp-task-info input[type="text"] {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#idxrp-task-info .btn {
+  cursor: pointer;
+}
+
+#idxrp-task-info .replication-settings-container,
+#idxrp-task-info .object-class-settings-container {
+  margin-top: 2rem;
+}
+
+#idxrp-task-info .object-class-settings-container {
+  background: #FAFAFA;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+#idxrp-task-info .replication-settings-row {
+  border: 1px solid #EEE;
+  padding: 1rem 0;
+}
+
+#idxrp-task-info .replication-settings-row:nth-child(odd) {
+  background: #FAFAFA;
+}
+
+#idxrp-task-info .replication-settings-row:nth-child(even) {
+  background: #FFF;
+}
+
+#idxrp-task-info .object-settings-row {
+  border: 1px solid #2C3F50;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#idxrp-task-info .btn-add-criteria {
+  margin: 1rem 0;
+}
+
+#idxrp-task-info .flatpickr-input {
+  width: 66%;
+}
+
+#idxrp-task-info .settings-criteria-list {
+  position: relative;
+}
+
+#idxrp-task-info .settings-criteria-list .criteria-label {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+#idxrp-task-info .two-sides-multi-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#idxrp-task-info .two-sides-multi-select .btn {
+  background: transparent;
+}
+
+#idxrp-task-info .two-sides-multi-select .btn:hover {
+  background: #F1F1F1;
+}
+
+/*# sourceMappingURL=index.css.map */

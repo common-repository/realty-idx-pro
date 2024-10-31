@@ -1,0 +1,35 @@
+#idxrp-server-info h3,
+#idxrp-server-info .idxrpbs h3 {
+  background-color: #2C3F50;
+  border-radius: 0.25em;
+  color: #EB9530;
+  font-size: 1.66em;
+  font-weight: 700;
+  line-height: 1;
+  margin: 1rem 0;
+  padding: 0.5em 0;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#idxrp-server-info .fields-mapping-row-container {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#idxrp-server-info .fields-mapping-row-container .panel-heading {
+  padding: 0;
+}
+
+#idxrp-server-info .fields-mapping-row-container .panel-title a {
+  box-shadow: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+#idxrp-server-info .fields-mapping-row-container .panel-title a:hover, #idxrp-server-info .fields-mapping-row-container .panel-title a:focus {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */

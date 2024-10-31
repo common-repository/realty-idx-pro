@@ -1,0 +1,223 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#idxrp-single-property-container {
+  max-width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 1100px;
+}
+
+.nav-single-property {
+  margin-bottom: 2em;
+}
+
+.nav-single-property > span {
+  display: inline-block;
+}
+
+.idxrp-property-container p {
+  margin-bottom: 1rem;
+}
+
+.idxrp-property-container h4 {
+  padding: 1rem 0 0.5rem;
+}
+
+.idxrp-property-container .header-row {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.idxrp-property-container #favorite-btn.is-favorite .fa {
+  color: #F00;
+}
+
+.idxrp-property-container .listing-status.for-sale {
+  background: #0F0;
+}
+
+.idxrp-property-container #property-photos {
+  margin: 0;
+  padding: 0;
+}
+
+.idxrp-property-container #property-photos-count {
+  background: #656565;
+  color: #FFF;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.idxrp-property-container #property-photos-count .fa.fa-camera {
+  color: #231F20;
+}
+
+.idxrp-property-container button.image-gallery-left-nav, .idxrp-property-container button.image-gallery-right-nav {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+}
+
+.idxrp-property-container .features-row {
+  margin: 0 0 1rem 0;
+}
+
+.idxrp-property-container .features-row > div {
+  padding: 0 5px 5px 0;
+}
+
+.idxrp-property-container .features-row > div:last-child {
+  padding-right: 0;
+}
+
+.idxrp-property-container .features-row > div > .feature-item {
+  background: #262626;
+  color: #FFF;
+  font-weight: bold;
+  padding: 1rem 15px;
+  text-align: center;
+}
+
+.idxrp-property-container .property-details-row h2, .idxrp-property-container .property-details-row h3, .idxrp-property-container .property-details-row h4 {
+  border-bottom: 2px solid #D2D2D2;
+  margin-bottom: 1rem;
+}
+
+.idxrp-property-container .property-details-row h2 {
+  font-size: 1.8em;
+}
+
+.idxrp-property-container .property-details-row h3 {
+  font-size: 1.6em;
+}
+
+.idxrp-property-container .property-details-row h4 {
+  font-size: 1.4em;
+}
+
+.idxrp-property-container .property-details-row > div {
+  margin-bottom: 1rem;
+}
+
+.idxrp-property-container .property-details-row #property-details-header {
+  font-weight: bold;
+}
+
+.idxrp-property-container .property-details-row .more-content .ellipsis,
+.idxrp-property-container .property-details-row .more-content .remaining-content {
+  display: inline;
+}
+
+.idxrp-property-container .property-details-row .read-more {
+  display: inline;
+}
+
+.idxrp-property-container .property-details-row table tr {
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.idxrp-property-container .property-details-row table tr td {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.idxrp-property-container .property-details-row table tr td:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.idxrp-property-container .property-details-row .items-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.idxrp-property-container .property-details-row .items-list li {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.idxrp-property-container .property-details-row .items-list li:before {
+  content: "\2022 ";
+  color: #6B6B6B;
+  padding-right: 0.3em;
+}
+
+.idxrp-property-container #property-post-content {
+  padding: 1rem 0;
+}
+
+.idxrp-property-container .sub-heading {
+  font-size: 0.8rem;
+}
+
+.idxrp-property-container .address-location {
+  height: 500px;
+}
+
+.idxrp-property-container .address-location #gmaps-info-window .gmaps-info-window-body img.attachment-post-thumbnail {
+  height: auto;
+  max-width: 100%;
+}
+
+.idxrp-property-container .address-location #gmaps-info-window .gmaps-info-window-body .price {
+  font-size: 1.2rem;
+}
+
+.idxrp-property-container .address-location.not-allowed {
+  height: inherit;
+}
+
+.idxrp-property-container .info-list li {
+  list-style: outside none none;
+  margin: 0;
+  padding: 3px 0;
+  position: relative;
+}
+
+.idxrp-property-container .info-list li:before, .idxrp-property-container .info-list li:after {
+  content: "";
+  display: table;
+}
+
+.idxrp-property-container .info-list li:after {
+  border-top: 2px dotted #CCC;
+  clear: both;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+.idxrp-property-container .info-list li .info-label {
+  background: #FFF;
+  color: #555;
+  font-weight: normal;
+  padding-right: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.idxrp-property-container .info-list li .info-value {
+  background: #FFF;
+  float: right;
+  max-width: 65%;
+  overflow: hidden;
+  padding-left: 5px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=single.css.map */

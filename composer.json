@@ -1,0 +1,13 @@
+{
+  "name": "IDX Realty Pro",
+  "description": "Easily add IDX listings and property searches from your MLS provider's RETS data feed to your real estate website for better SEO.",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  }
+}
